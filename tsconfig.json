@@ -9,7 +9,10 @@
     "strict": true,
     "target": "es6",
     "allowJs": false,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "lib": [
+      "es2019"
+    ]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
