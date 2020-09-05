@@ -1,6 +1,6 @@
 {
-  "name": "excel-to-vue-i18n",
-  "version": "0.0.6",
+  "name": "excel-vue-i18n",
+  "version": "0.0.7",
   "description": "",
   "main": "bin/index.js",
   "scripts": {
@@ -11,11 +11,11 @@
   "author": "Serhan Coşkun",
   "license": "ISC",
   "bin": {
-    "excelToVueI18n": "./bin/index.js"
+    "excelVueI18n": "./bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/grafikri/excel-to-vue-i18n.git"
+    "url": "https://github.com/grafikri/excel-vue-i18n.git"
   },
   "files": [
     "bin",
