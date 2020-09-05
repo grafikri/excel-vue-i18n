@@ -524,3 +524,4 @@ types/
 template.js
 .env
 package-lock.json
+locale/
