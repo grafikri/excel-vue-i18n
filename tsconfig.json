@@ -5,7 +5,7 @@
     "moduleResolution": "node",
     "declaration": true,
     "declarationDir": "./types",
-    "outDir": "./dist",
+    "outDir": "./bin",
     "strict": true,
     "target": "es6",
     "allowJs": false,
