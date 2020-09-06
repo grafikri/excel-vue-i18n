@@ -17,7 +17,7 @@ This line will generate json locale files depend on their key values that exist 
 $ excelVueI18n -p myLangFile.xlsx
 ```
 
-If you want to specify path, you can.
+If you want to specify path
 ```bash
 $ excelVueI18n -p file/myLangFile.xlsx
 ```
@@ -27,13 +27,13 @@ If you want to generate one single file that contains all locales information yo
 $ excelVueI18n -p file/myLangFile.xlsx -s true
 ```
 
-If you use `-s` option you can also specify genetared file name like this
+If you use `-o` option with `-s` you can also specify genetared file name like this
 ```bash
 $ excelVueI18n -p file/myLangFile.xlsx -s true -o myLocaleFile
 ```
 then your genetared file name will be named as `myLocaleFile.json `under the root of `/locale`
 
-> Note When `-s` option used `-o` option will be ignored because file names will be their lang codes
+> Note: When `-s` option didn't use `-o` option will be ignored because file names will be their lang codes
 
 Specifying the folder path for the generated file(s) you can use `-f` option.
 ```bash
