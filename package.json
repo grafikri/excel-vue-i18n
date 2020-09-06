@@ -1,7 +1,7 @@
 {
   "name": "excel-vue-i18n",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "The CLI application to genetare Vue i18n local file from excel",
   "main": "bin/index.js",
   "scripts": {
     "dev": "tsc --watch",
