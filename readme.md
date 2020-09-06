@@ -14,22 +14,22 @@ $ npm i -g excel-vue-i18n
 This line will generate json locale files depend on their key values that exist in the excel file. The JSON file will be generated under the root <code>/locale</code> as default.
 
 ```bash
-$ excelVueI18n -p myLangFile.xlxs
+$ excelVueI18n -p myLangFile.xlsx
 ```
 
 If you want to specify path, you can.
 ```bash
-$ excelVueI18n -p file/myLangFile.xlxs
+$ excelVueI18n -p file/myLangFile.xlsx
 ```
 
 If you want to generate one single file that contains all locales information you can use `-s` option.
 ```bash
-$ excelVueI18n -p file/myLangFile.xlxs -s true
+$ excelVueI18n -p file/myLangFile.xlsx -s true
 ```
 
 If you use `-s` option you can also specify genetared file name like this
 ```bash
-$ excelVueI18n -p file/myLangFile.xlxs -s true -o myLocaleFile
+$ excelVueI18n -p file/myLangFile.xlsx -s true -o myLocaleFile
 ```
 then your genetared file name will be named as `myLocaleFile.json `under the root of `/locale`
 
@@ -37,7 +37,7 @@ then your genetared file name will be named as `myLocaleFile.json `under the roo
 
 Specifying the folder path for the generated file(s) you can use `-f` option.
 ```bash
-$ excelVueI18n -p myLangFile.xlxs -f langFolder
+$ excelVueI18n -p myLangFile.xlsx -f langFolder
 ```
 then your genetared file name will be named as `myLocaleFile.json `under the root of `/langFolder`  
 
