@@ -1,3 +1,6 @@
+![preview](https://i.imgur.com/IczvRYZ.png)
+
+
 <h1>Excel Vue i18n</h1>
 
 You can create [Vue i18n](https://kazupon.github.io/vue-i18n/guide/formatting.html#named-formatting) locale files from Excel via this CLI application
